@@ -72,16 +72,8 @@
 .left-div-last:hover{
         color: #ef2322;      
   }
-/*  .left-div ul li a span{
-  	background:url(../images/plane.png) no-repeat;
-  	height: 20px;
-  	width: 20px;
-  	display: block;
-  	margin-top: 218px;
-	margin-left: 50px;
-	float: left;
-  }*/
-    .left-div a:hover{color: #ef2322;}
+
+.left-div a:hover{color: #ef2322;}
 .pageScroll {
 	position: fixed !important;
 	top: 74%;
@@ -117,24 +109,24 @@
 li.scrollNav.active a {
 	color: #ef2322;
 }
-@media  (min-width:980px) and (max-width:1410px) {
+@media  (min-width:900px) and (max-width:1410px) {
  .centera{
      width: 830px;
-   }
+}
  .left-div{
 	left: 0px;
 }
 
 .pageScroll {
 	position: fixed !important;
-	top: 79%;
+	top: 72%;
 	left: 17px;
 }
 .pageScroll.left {
 	margin-left: 0px;
 }
 }
-@media  (min-width:0px) and (max-width:980px) 
+/*@media  (min-width:0px) and (max-width:980px) 
 {
 
  .left-div{
@@ -146,4 +138,4 @@ li.scrollNav.active a {
 .pageScroll.left {
 	display: none!important;
 }
-}
+}*/
