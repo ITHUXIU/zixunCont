@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/zixunContCss.css">
 	 <link rel="stylesheet" type="text/css" media="all" href="css/load.css">
 	 <link rel="stylesheet" type="text/css" media="all" href="css/search.css">
-	 <link rel="stylesheet" type="text/css" href="css/sendCss.css">
+	  <link rel="stylesheet" type="text/css" media="all" href="css/sendCss.css">
 	 <link rel="stylesheet" type="text/css" href="css/roll.css">
 	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript"  src="js/jquery-3.1.1.min.js"></script>
@@ -47,9 +47,6 @@
 		<div id="loginmodal" style="display:none;">
        
     		<div class="mainLeft">
-     		<!-- 	<div class="mainLeftImg">
-            		<img src="images/logohx.png">
-      			</div> -->
       			<form id="loginform" name="loginform" method="post" action="index.html">
        				<input type="text" name="username" id="username" class="txtfield" tabindex="1" value="手机号/邮箱/虎嗅账号" onfocus="if(this.value=='手机号/邮箱/虎嗅账号'){this.value='';}">
      	 			<input type="password" name="password" id="password" class="txtfield" tabindex="2"  >
@@ -141,8 +138,6 @@
 			<ul>
 				<li><a class="left-div-first flatbtn" id="modalt" href="#sendMes"><span></span>投稿</a></li>
 				<li><a class="left-div-second" href=""><span></span>客户端</a></li>
-				<!-- <li><a class="left-div-third" href="#pageScroll0">热文</a></li>
-				<li><a class="left-div-forth" href="#pageScroll1">热门标签</a></li> -->
 				<li><div class="floatCtro"><a class="left-div-last" href="#1">
             	返回顶部
           		</a></div></li>
@@ -150,15 +145,24 @@
 			</div>
 		</div>
 		<div class="main">
-			<h1>股价暴跌85%的辉山乳业，能在债务危机中幸存吗？</h1>
+			<h1>股价暴跌85%的辉山乳业,能在债务危机中幸存吗？</h1>
 			<div class="name">
 				<span id = "touxiang"></span><p>界面</p>
 			</div>
 			<div class="infor">
 				<span id="time">2017-03-25  15:42</span>
-				<img src="images/whiteStar.png"><span id="like">16</span>
-				<img src="images/whiteEmail.png"><span id="message">5</span>
-				<span id="exllect"></span><span>76</span>
+				<a href="#">
+					<span id="star"></span><span id="like">16</span>
+				</a>
+				
+				<a href="#">
+					<span id="whiteEmail"></span><span id="message">5</span>
+				</a>
+				
+				<a href="#">
+					<span id="exllect"></span><span>76</span>
+				</a>
+				
 			</div>
 			<div class="from">
 				<p>转载自界面</p>
@@ -266,7 +270,7 @@
 				</ul>
 			</div>
 			<div class="footNote">
-				<p>Copyright © 虎嗅网 京IPC备12013432号-1<img src="images/police.png">京公网安备11010102001402 本站由<a href="#"><img src="images/ali.png"></a>提供计算与安全服务</p>
+				<a>Copyright © 虎嗅网 京IPC备12013432号-1<img src="images/police.png">京公网安备11010102001402 本站由<img src="images/ali.png">提供计算与安全服务</a>
 			</div>	
 		</div>
 	</div>
@@ -363,5 +367,6 @@ $(function(){
   }
 
 </script>
+
 </body> 
 </html>
